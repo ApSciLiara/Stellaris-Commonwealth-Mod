@@ -1,7 +1,7 @@
 l_english
 
 EMPIRE_DESIGN_liara_ctw:0 "Commonwealth of Transhumanist Worlds"
-EMPIRE_DESIGN_liara_ctw_desc:0 "The Commonwealth of Transhumanist Worlds is a nation formed from an early colonial ship, 
+EMPIRE_DESIGN_liara_ctw_desc:0 "Formed from an early human colony ship, the Commonwealth is a human society whose primary goal is to advance the development of science. An exceptional education program means that Commonwealth humans are very intelligent, and their mastery of cyberware allows them far easier adaptation to new environments. However, reproduction is no longer a priority for many members, and their widespread use of cyberware is seen as repugnant by many."
 
 LIARA_CTW_HOSTILE_GREETING_01:0 "State your business."
 LIARA_CTW_FRIENDLY_GREETING_01:0 "Greetings, [From.GetSpeciesName]. How may the Commonwealth assist you today?"
