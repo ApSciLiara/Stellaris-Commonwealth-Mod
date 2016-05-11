@@ -1,4 +1,4 @@
-liara-ctw-gov = { 
+liara_ctw_gov = { 
        type = explorer
        aggressiveness = 0.5
        trade_willingness = 1.0
