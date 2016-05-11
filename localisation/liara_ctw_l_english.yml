@@ -1,0 +1,8 @@
+l_english
+
+EMPIRE_DESIGN_liara_ctw:0 "Commonwealth of Transhumanist Worlds"
+EMPIRE_DESIGN_liara_ctw_desc:0 "The Commonwealth of Transhumanist Worlds is a nation formed from an early colonial ship, 
+
+LIARA_CTW_HOSTILE_GREETING_01:0 "State your business."
+LIARA_CTW_FRIENDLY_GREETING_01:0 "Greetings, [From.GetSpeciesName]. How may the Commonwealth assist you today?"
+LIARA_CTW_WAR_GREETING_01:0 "We didn't want to have to do this, but you leave us with no choice. I hope you realise your error before it's too late."
