@@ -1,5 +1,5 @@
-liara-ctw = {
-       name = "liara-ctw"
+liara_ctw = {
+       name = "liara_ctw"
        spawn_enabled = no # yes / no / always
        name_list = "Human"
        ship_prefix = "CSV"	
@@ -16,7 +16,7 @@ liara-ctw = {
        government = "science_directorate"
        ethic = "ethic_xenophile"
        ethic = "ethic_fanatic_materialist"
-       flags = { human_1 custom_start_screen }
+       flags = { liara_ctw custom_start_screen }
        weapon = "tech_lasers_1"
        ftl = warp
        planet_name = "Caprica"
