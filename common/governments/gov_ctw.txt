@@ -1,0 +1,32 @@
+liara-ctw-gov = { 
+       type = explorer          #these words seems mysterious but they are all explained in original file
+       aggressiveness = 0.4
+       trade_willingness = 1.0
+       bravery = 1.0
+       military_spending = 0.75
+       colony_spending = 1.2	
+       alliance_acceptance = 20
+       federation_acceptance = 20
+       threat_modifier = 0
+       friction_modifier = 10
+       behaviour = {
+               conqueror = no
+               subjugator = no
+               liberator = yes
+               opportunist = yes
+               slaver = no
+               uplifter = yes
+               purger = no
+               dominator = no
+               infiltrator = no
+               robot_exploiter = no
+               robot_liberator = yes
+               migrator = yes
+        }
+        allow = {
+               has_country_flag = xenomorph
+        }
+        weight_modifier = {
+               weight = 1000			
+        }
+}
