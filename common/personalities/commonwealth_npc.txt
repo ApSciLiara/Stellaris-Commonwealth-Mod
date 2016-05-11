@@ -1,9 +1,9 @@
 liara-ctw-gov = { 
-       type = explorer          #these words seems mysterious but they are all explained in original file
-       aggressiveness = 0.4
+       type = explorer
+       aggressiveness = 0.5
        trade_willingness = 1.0
        bravery = 1.0
-       military_spending = 0.75
+       military_spending = 0.8
        colony_spending = 1.2	
        alliance_acceptance = 20
        federation_acceptance = 20
@@ -24,7 +24,7 @@ liara-ctw-gov = {
                migrator = yes
         }
         allow = {
-               has_country_flag = xenomorph
+               has_country_flag = liara_ctw
         }
         weight_modifier = {
                weight = 1000			
