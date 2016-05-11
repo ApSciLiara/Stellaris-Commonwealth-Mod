@@ -1,0 +1,57 @@
+liara-ctw = {
+       name = "liara-ctw"
+       spawn_enabled = no # yes / no / always
+       name_list = "Human"
+       ship_prefix = "CSV"	
+       species_name = "Human"
+       species_plural = "Humans"	
+       species_adjective = "Human"
+       species_class = "MAM"
+       trait = "trait_adaptive"
+       trait = "trait_intelligent"
+       trait = "trait_repugnant"
+       trait = "trait_slow_breeders"
+       portrait = "human"
+       adjective = "Commonwealth"
+       government = "science_directorate"
+       ethic = "ethic_xenophile"
+       ethic = "ethic_fanatic_materialist"
+       flags = { human_1 custom_start_screen }
+       weapon = "tech_lasers_1"
+       ftl = warp
+       planet_name = "Caprica"
+       planet_class = "pc_arid"
+       system_name = "Meridian"
+       graphical_culture = "mammalian_01"
+       city_graphical_culture = "mammalian_01"
+       empire_flag = {
+               icon= {
+                       category = "pirate"
+                       file = "flag_pirate_4.dds"
+               }
+               background= {
+                       category = "backgrounds"
+                       file = "v.dds"
+               }
+               colors={
+                       "dark_purple"
+		                   "purple"
+                       "null"
+                       "null"
+               }
+       }
+       #leader = {
+       #	name = "Meredith Jennings"
+       #	class = ruler
+       #	portrait = "human_female_05"
+       #	experience = 1200.0
+       #}	
+       ruler = {
+               name = "Meredith Jennings"
+               gender = female
+               portrait = "human_female_05"
+               texture = 0
+               hair = 0
+               clothes = 0
+       }
+}
