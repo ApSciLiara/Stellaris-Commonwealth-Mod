@@ -18,7 +18,7 @@ liara_ctw_meridian_initializer = {
 	}
 	
 	planet = {
-		name = "Meridian 1"
+		name = "Meridian I"
 		class = "pc_molten"
 		orbit_distance = 40
 		orbit_angle = 15
@@ -27,7 +27,7 @@ liara_ctw_meridian_initializer = {
 	}
 	
 	planet = {
-		name = "Meridian 2"
+		name = "Meridian II"
 		class = "pc_gas_giant"
 		orbit_distance = 30
 		orbit_angle = -160
@@ -167,7 +167,7 @@ liara_ctw_meridian_initializer = {
 		}
 	
 	planet = {
-		name = "Meridian 3"
+		name = "Meridian III"
 		class = "pc_continental"
 		orbit_distance = 20
 		orbit_angle = 120
@@ -195,7 +195,7 @@ liara_ctw_meridian_initializer = {
 	}
 	
 	planet = {
-		name = "Meridian 4"
+		name = "Meridian IV"
 		class = "pc_barren"
 		orbit_distance = 20
 		orbit_angle = 60
@@ -241,7 +241,7 @@ liara_ctw_meridian_initializer = {
 	}
 	
 	planet = {
-		name = "Meridian 5"
+		name = "Meridian V"
 		class = "pc_gas_giant"
 		orbit_distance = 30
 		orbit_angle = -160
