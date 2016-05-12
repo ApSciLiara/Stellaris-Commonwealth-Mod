@@ -3,159 +3,117 @@ Commonwealth = {
 	ship_names = {
 		generic = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		corvette = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		constructor = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		colonizer = {
 			random_names = {
-			"New Dawn" 
+				"New Dawn" 
 			}
 		}
 		science = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		destroyer = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		cruiser = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		battleship = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
-		orbital_station = {
-			random_names = {
-			"" 
-			}
-		}
-		mining_station = {
-			random_names = {
-			"" 
-			}
-		}
-		research_station = {
-			random_names = {
-			"" 
-			}
-		}
-		wormhole_station = {
-			random_names = {
-			"" 
-			}
-		}
-		terraform_station = {
-			random_names = {
-			"" 
-			}
-		}
-		observation_station = {
-			random_names = {
-			"" 
-			}
-		}
+
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
 		outpost_station = {
 			random_names = {
-			"" 
+				"" 
 			}
+			sequential_name = "CSF %O% Frontier Outpost"
 		}
+
 		transport = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		military_station_small = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		military_station_medium = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 		military_station_large = {
 			random_names = {
-			"" 
+				"" 
 			}
 		}
 	}
 	fleet_names = {
 		random_names = {
-		"" 
+			"CSF Task Force Shepard" 
 		}
 		sequential_name = "CSF %O% Task Force"
 	}
 	### ARMIES
 	army_names = {
 		defense_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Ground Defence Corps"
 		}
 		assault_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Ground Assault Corps"
 		}
 		slave_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Indentured Corps"
 		}
 		clone_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Replicant Corps"
 		}
 		robotic_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Automated Corps"
 		}
 		android_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Synth Corps"
 		}
 		psionic_army = {
 			random_names = {
-			"" 
+				"CSF Cole Group" 
 			}
 			sequential_name = "CSF %O% Psi Corps"
 		}
 		xenomorph_army = {
-			random_names = {
-			"" 
-			}
 			sequential_name = "CSF %O% Xeno Corps"
 		}
 		gene_warrior_army = {
 			random_names = {
-			"" 
+				"CSF Renner Group" 
 			}
 			sequential_name = "CSF %O% "
 		}
@@ -205,30 +163,112 @@ Commonwealth = {
 	}
 	### CHARACTERS
 	character_names = {
-		default = {
-		# A complete name
-			full_names = {
-			"Meredith Jennings" 
-			}
-			# Always combined with a second name
+		names1 = {
+			weight = 30
 			first_names_male = {
-			"" 
+				Aarav Vivaan Aditya Arjun Reyansh Arnav Krishna Ishaan Shaurya Atharv Advik Pranav Advaith Dhruv Kabir Ritvik Aarush
+				Kayaan Darsh Veer Rahul Mahesh Shyam Raj Kumar Palash Rakesh Nishant Neeraj Prathamesh Shubham
 			}
 			first_names_female = {
-			"" 
+				Saanvi Aanya Aadhya Aaradhya Ananya Pari Anika Navya Diya Avani Myra Ira Aahana Anvi Prisha Riya Aarohi Anaya Akshara
+				Shanaya Kyra Siya Priyanka Divya Mahima Shivangi Juvina Anoushka Anushri Apoorva Sanjana
 			}
-			# Always combined with a first name
 			second_names = {
-			"Cole" "Shepard" "Hassan" 
+				Kumar Moorthi Shastri Prasad Acharya Swamy Pillai Gowda Nayak Desmukh Bhat Bhandary Poojary Upadhyay Chowta Naik
+				Kulkarni Dodamani Patil Gupta Sharma Namboodiri Pannikar Potti Kutty Varma Sondharam Sooriyaprakash Chandran Vijay
+				Venktaesan Puttappa
 			}
 			regnal_first_names_male = {
-			"" 
+				Kayaan Darsh Veer Rahul Mahesh Shaurya Atharv Advik Pranav
 			}
 			regnal_first_names_female = {
-			"" 
+				Saanvi Aanya Aadhya Aaradhya Ananya Priyanka Divya Mahima Shivangi
 			}
 			regnal_second_names = {
-			"" 
+				Kumar Moorthi Shastri Prasad Acharya Patil Gupta Sharma Namboodiri Pannikar Potti Kutty Varma Sondharam
+			}
+		}
+		
+		names2 = {
+			weight = 45
+			first_names_male = {
+				Abdullah Abbas Abed Ahmad Ahmed Ali Ammar Amir Hamza Hassan Hydar Ibrahim Jamal Kareem Khathem Khalil Khalid Malik Mahdi 
+				Hussein Mohamed Mohammad Mohammed Muhammad Muhammed Nasir Omar Rashad Rashid Samir Tariq Yahir Yasin Yusuf Barak
+			}
+			first_names_female = {
+				Alma Amani Amira Aisha Fatima Hala Hana Hasti Imani Jana Jaliyah Jazmin Jenna Kaliyah Layan Leen Leila Lydia Malak Maryam 
+				Maritza Mina Naima Noor Salma Samira Sanaa Yesenia Zahra Satayesh Zeinab Reihaneh Mobina Narges Ma'soumeh Sakineh Aya
+			}
+			second_names = {
+				Barakat Abbas "Abdel Nour" Abboud al-Ahdal al-Ajlani al-Bariqi al-Mubarak Adwam Akkad Alawi al-Asiri al-Atrash al-Dimashqi
+				Bakir Hussein al-Hazmi al-Bishi El-Baz Ibrahim Ishak Ismail El-Farouk Hassan El-Ghazali Bilal Nadir Juhani Jawahir Hamidi
+				al-Jazari al-Samarrai Salman Qasim Qudsi Qaderi al-Qadi Farrokhzad Madani Sassani Turani Khadem Ghorbani Jamshidi Rahimi
+			}
+			regnal_first_names_male = {
+				Abdullah Abbas Abed Khalil Khalid Malik Mahdi Nasir Omar Rashad Rashid Samir
+			}
+			regnal_first_names_female = {
+				Zeinab Reihaneh Mobina Narges Ma'soumeh Sakineh Aya Alma Amani Amira
+			}
+			regnal_second_names = {
+				arakat Abbas "Abdel Nour" Abboud al-Ahdal al-Jazari al-Samarrai Salman Qasim Qudsi Qaderi al-Qadi Farrokhzad Madani
+			}
+		}
+		names3 = {
+			weight = 15
+			first_names_male = {
+				Faraji Imamu Jelani Jengo Jumaane Khamisi Kibwe Mosi Mwenye Sefu Simba Tendaji Zuberi Abasi Annan Azizi Badru Bakari Bwana
+				Chane Chuma Enzi Faraji Hanisi Idi Issa Jabari Akani Aluwanip Ayanda Bambanani Bheka Bhekithemba Bhekizizwe Butholezwe Dikotsi 
+				Dzingai Esaia Hangwani Humbe Kabelo Khathu Khumbu Kutlwano Kwanele Lentswe Lesebo Letswalo Lutendo Mahlubandile Makalo Mareka 
+				Masingita Moeketsi Molapo Mosemotsane Motlalentwa Mothusi Msizi Mzwamadoda Nthofeela Oagile Paseka Phahamo Poloko Qukeza Refilwe 
+				Sanele S'bu Sehlolo Sekgolokhane Sibusiso Sizwe Teboho Thabiso Themba Thuso Tsebo T'sehla Tshawe Unathi Wandile Mbutu Kofi
+			}
+			first_names_female = {
+				Asha Abla Adhra Adila Aeeshah Afiya Chausiku Eshe Furaha Imani Kamaria Marjani Mchumba Mwanajuma Nia Nuru Sanaa Sauda Subira 
+				Zuri Aizivaishe Anatswanashe Anodiwa Anokosha Awande Bokang Bongani Dikeledi Edzai Fikile Gugu Kagiso Keneuwe Koketso Langalibalele
+				Lerato Lindidwe Litsoanelo Lulama Majobo Maletsatsi Matshediso Mbali Mmaabo Mncedisi Mohau Moratuoa Muambiwa Nnyadzeni Nofoto
+				Nthati Ntsebo Ntswaki Phathu Reneilwe Rudzani Shandu Sinethemba Sizani Thanduxolo Tshanduko Tungu Zinhle
+			} 
+			second_names = {
+				Azikiwe Awolowo Balewa Akintola Nzeogwu Onwuatuegwu Okeke Okonkwo Babangida Buhari Dimka Ibori Jomo-Gbomo Iwu Bamgboshe Biobaku
+				Tinibu Akinjide Akiloye Adeyemi Sekibo Bankole Nnamani Okadigbo Ironsi Ojukwu Chukwumereije Iweala Okonjo Gbadamosi Olanrewaju
+				Madaki Oyinlola Onyejekwe Jakande Ngige Uba Ohakim Alakija Onobanjo Mbanefo Mbadinuju Ekwensi Gowon Saro-Wiwa Naidoo Swanepoel 
+				Msibi Ngobese Ngema Masuku Khonjwayo Khumalo Kwayi Mambi Mbanjwa Mkhwemte Mtakwenda Ngwanya Nkwali Thwane Skhosana Tshangisa 
+				Tshonyane Xhamela Xoko Zangwa Ndungwane Bhukhwana Dzana Gatyeni Gxarha Jwarha Khawuta
+			}
+			regnal_first_names_male = {
+				Faraji Imamu Jelani Jengo Jumaane Khamisi Kwanele Lentswe Lesebo Letswalo Lutendo Mahlubandile Makalo Mareka
+			}
+			regnal_first_names_female = {
+				Kagiso Keneuwe Koketso Langalibalele Ntsebo Ntswaki Phathu Reneilwe Rudzani Shandu
+			}
+			regnal_second_names = {
+				Azikiwe Awolowo Balewa Akintola Nzeogwu Onwuatuegwu
+			}
+		}
+		names4 = {
+			weight = 15
+			first_names_male = {
+				Hiroto Hikaru Takumi Tsubasa Ren Minato Shota Yuuto Sota Yuma Takeru Rikuto Tatsuki Ryuto Haru Yushin Kosei Yoshinobu
+				Jiro Hiroshi Yoshida Mitsue Keisuke Saburo Junichi Yoshi Koshiro Kentaro Koichiro
+			}
+			first_names_female = {
+				Haruna Sakura Misaki Aoi Mihane Miyu Rin Nanami Yui Hina Honoka Riko Yuna Koharu Hinata Mei Saki Ichika Hiyori Yusuki
+				Shiori Natsuki Ayane Kaho Hana Momoka Himari Yume Aomame Noriko Kazumi Kimiko
+			}
+			second_names = {
+				Sato Suzuki Takahashi Tanaka Watanabe Ito Nakamura Kobayashi Yamamoto Kato Yoshida Yamada Sasaki Yamaguchi Matsumoto
+				Inoue Kimura Shimizu Hayashi Saito Yamazaki Nakajima Mori Abe Ikeda Hashimoto Ishikawa Yamashita Ogawa Ishii Hasegawa
+				Goto Okada Fujita Sakamoto Murakami Nishimura Nakagawa Harada Okamoto Miura Takaya Amano Higuchi Ota
+			}
+			regnal_first_names_male = {
+				Teruhito Nekuhiko Mimatsuhiko Anaho Hironari Norinaga
+			}
+			regnal_first_names_female = {
+				Nukatabe Toyomike Takara Niinomi Hidaka Takama Okiko Toshiko
+			}
+			regnal_second_names = {
+				"no Mikoto" Sumeramikoto Otomo Suijin Mononobe Yamato
 			}
 		}
 	}
