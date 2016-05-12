@@ -27,31 +27,31 @@ liara_ctw_meridian_initializer = {
 	}
 	
 	planet = {
-		name = "Caprica"
-		class = "pc_arid"
-		orbit_distance = 20
-		orbit_angle = 125
-		size = 20
-		starting_planet = yes
+		name = "Meridian 2"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
 		has_ring = no
-	}
-	
-	planet = {
-		name = "Meridian 3"
-		class = "pc_continental"
-		orbit_distance = 20
-		orbit_angle = 120
-		size = 16
-		has_ring = no
-		entity = "continental_planet_earth_entity"
-		tile_blockers = none
-		modifiers = none
-		
-		init_effect = {
+		entity = "gas_giant_jupiter_entity"
+		change_orbit = 6
+
+		moon = {
+			name = "Caprica"
+			class = "pc_arid"
+			orbit_distance = 20
+			orbit_angle = 125
+			size = 20
+			starting_planet = yes
+			has_ring = no
+			tile_blockers = none
+			modifiers = none
+			
+			init_effect = {
 			prevent_anomaly = yes
-		}
-		
-		init_effect = {
+			}
+			
+			init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -164,6 +164,24 @@ liara_ctw_meridian_initializer = {
 				}				
 			}			
 		}
+		}
+	
+	planet = {
+		name = "Meridian 3"
+		class = "pc_continental"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 16
+		has_ring = no
+		entity = "continental_planet_earth_entity"
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		
 		
 		moon = {
 			name = "Luna"
