@@ -1,0 +1,235 @@
+Commonwealth = {
+	selectable = yes
+	ship_names = {
+		generic = {
+			random_names = {
+			"" 
+			}
+		}
+		corvette = {
+			random_names = {
+			"" 
+			}
+		}
+		constructor = {
+			random_names = {
+			"" 
+			}
+		}
+		colonizer = {
+			random_names = {
+			"New Dawn" 
+			}
+		}
+		science = {
+			random_names = {
+			"" 
+			}
+		}
+		destroyer = {
+			random_names = {
+			"" 
+			}
+		}
+		cruiser = {
+			random_names = {
+			"" 
+			}
+		}
+		battleship = {
+			random_names = {
+			"" 
+			}
+		}
+		orbital_station = {
+			random_names = {
+			"" 
+			}
+		}
+		mining_station = {
+			random_names = {
+			"" 
+			}
+		}
+		research_station = {
+			random_names = {
+			"" 
+			}
+		}
+		wormhole_station = {
+			random_names = {
+			"" 
+			}
+		}
+		terraform_station = {
+			random_names = {
+			"" 
+			}
+		}
+		observation_station = {
+			random_names = {
+			"" 
+			}
+		}
+		outpost_station = {
+			random_names = {
+			"" 
+			}
+		}
+		transport = {
+			random_names = {
+			"" 
+			}
+		}
+		military_station_small = {
+			random_names = {
+			"" 
+			}
+		}
+		military_station_medium = {
+			random_names = {
+			"" 
+			}
+		}
+		military_station_large = {
+			random_names = {
+			"" 
+			}
+		}
+	}
+	fleet_names = {
+		random_names = {
+		"" 
+		}
+		sequential_name = "CSF %O% Task Force"
+	}
+	### ARMIES
+	army_names = {
+		defense_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Ground Defence Corps"
+		}
+		assault_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Ground Assault Corps"
+		}
+		slave_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Indentured Corps"
+		}
+		clone_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Replicant Corps"
+		}
+		robotic_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Automated Corps"
+		}
+		android_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Synth Corps"
+		}
+		psionic_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Psi Corps"
+		}
+		xenomorph_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% Xeno Corps"
+		}
+		gene_warrior_army = {
+			random_names = {
+			"" 
+			}
+			sequential_name = "CSF %O% "
+		}
+	}
+	planet_names = {
+	# Names that can be assigned to all planet types
+		generic = {
+			names = {
+			"Gemenon" "Aerilon" "Picon" "Tauron" 
+			}
+		}
+		pc_desert = {
+			names = {
+			"Sahara" 
+			}
+		}
+		pc_arid = {
+			names = {
+			"New Lebanon" 
+			}
+		}
+		pc_tropical = {
+			names = {
+			"" 
+			}
+		}
+		pc_continental = {
+			names = {
+			"" 
+			}
+		}
+		pc_ocean = {
+			names = {
+			"" 
+			}
+		}
+		pc_tundra = {
+			names = {
+			"" 
+			}
+		}
+		pc_arctic = {
+			names = {
+			"" 
+			}
+		}
+	}
+	### CHARACTERS
+	character_names = {
+		default = {
+		# A complete name
+			full_names = {
+			"Meredith Jennings" 
+			}
+			# Always combined with a second name
+			first_names_male = {
+			"" 
+			}
+			first_names_female = {
+			"" 
+			}
+			# Always combined with a first name
+			second_names = {
+			"Cole" "Shepard" "Hassan" 
+			}
+			regnal_first_names_male = {
+			"" 
+			}
+			regnal_first_names_female = {
+			"" 
+			}
+			regnal_second_names = {
+			"" 
+			}
+		}
+	}
+}
