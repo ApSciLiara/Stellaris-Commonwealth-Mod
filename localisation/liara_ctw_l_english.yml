@@ -1,9 +1,9 @@
 l_english
 
 EMPIRE_DESIGN_liara_ctw:0 "Commonwealth of Transhumanist Worlds"
-EMPIRE_DESIGN_liara_ctw_desc:0 ""
+EMPIRE_DESIGN_liara_ctw_desc:0 "The UN-sponsored Ulysses Initiative oversaw the construction of six great ark ships in low Earth orbit at the end of the 21st century. The ships were fitted with powerful but unstable wormhole generators and sent towards distant stars carrying a quarter million colonists each. None were heard from again, and research into subspace wormholes was soon abandoned.\n\nYet unbeknownst to Earth, one of the ark ships made it to an arid moon and established a flourishing colony. The pioneers who tamed this world used advanced cyberware and genetic modification to do so, knowledge which they intend to improve out amongst the stars."
 
-START_SCREEN_LIARA_CTW:0 "After over a century of wandering the galaxy, the ark ship Prosperity has arrived at its destination, the beautiful world of [GetHomeworldName]. While your people have merely been taking in the joys of a new world, you and your trusted comrades, the other members of the Commonwealth Governing Council, have been laying the foundations for a new era of scientific research, unhindered by petty "moral" restrictions. Our bodies are not sacred, they are ours to mold as we please! \n\nOur fleets are ready to take to the stars. 
+START_SCREEN_LIARA_CTW:0 "After over a century of wandering, the ark ship Hyacinth had finally made it to its destination: the planet of [GetHomeworldName].\n\nWhile early life was tough, they quickly adapted with an intensive program of highly advanced genetic modification and cyberware implantations, leaving them well-equipped to face the dangers of an alien world. And all the while, you have been quietly forming the basis of a new society, founded upon the principles of peaceful co-operation and scientific advancement.\n\nNow, after decades of research, the knowledge of FTL travel has been uncovered once more. With our new starship technology, we can finally return to the stars, and unite the galaxy in the common pursuit of science.\n\nAnd maybe, one day, we can return to our old home of Sol..."
 
 LIARA_CTW_HOSTILE_GREETING_01:0 "State your business."
 LIARA_CTW_FRIENDLY_GREETING_01:0 "Greetings, [From.GetSpeciesName]. How may the Commonwealth assist you today?"
