@@ -33,12 +33,12 @@ Commonwealth = {
 		}
 		cruiser = {
 			random_names = {
-				"" 
+				"Summer's Grace" 
 			}
 		}
 		battleship = {
 			random_names = {
-				"" 
+				"Winter's Wrath" "Might of Caprica"
 			}
 		}
 
@@ -72,23 +72,20 @@ Commonwealth = {
 		}
 		military_station_large = {
 			random_names = {
-				"" 
+				""
 			}
 		}
 	}
 	fleet_names = {
-		random_names = {
-			"CSF Task Force Shepard" 
-		}
 		sequential_name = "CSF %O% Task Force"
 	}
 	### ARMIES
 	army_names = {
 		defense_army = {
-			sequential_name = "CSF %O% Ground Defence Corps"
+			sequential_name = "CSF %O% Defence Corps"
 		}
 		assault_army = {
-			sequential_name = "CSF %O% Ground Assault Corps"
+			sequential_name = "CSF %O% Assault Corps"
 		}
 		slave_army = {
 			sequential_name = "CSF %O% Indentured Corps"
@@ -103,61 +100,60 @@ Commonwealth = {
 			sequential_name = "CSF %O% Synth Corps"
 		}
 		psionic_army = {
-			random_names = {
-				"CSF Cole Group" 
-			}
 			sequential_name = "CSF %O% Psi Corps"
 		}
 		xenomorph_army = {
 			sequential_name = "CSF %O% Xeno Corps"
 		}
 		gene_warrior_army = {
-			random_names = {
-				"CSF Renner Group" 
-			}
-			sequential_name = "CSF %O% "
+			sequential_name = "CSF %O% Augmented Corps"
 		}
 	}
 	planet_names = {
 	# Names that can be assigned to all planet types
 		generic = {
 			names = {
-			"Gemenon" "Aerilon" "Picon" "Tauron" 
+				
 			}
 		}
 		pc_desert = {
 			names = {
-			"Sahara" 
+				Gemenon Sahara "New Kermanshah"
 			}
 		}
 		pc_arid = {
 			names = {
-			"New Lebanon" 
+				Tauron "New Lebanon" "New Tehran" "New Isfahan"
 			}
 		}
 		pc_tropical = {
 			names = {
-			"" 
+				Scorpia Medra
 			}
 		}
 		pc_continental = {
 			names = {
-			"" 
+				Virgon Sagittaron "New Tabriz" "New Mashhad"
+			}
+		}
+		pc_gaia = {
+			names = {
+				Kobol Khuldi Utopia
 			}
 		}
 		pc_ocean = {
 			names = {
-			"" 
+				Picon 
 			}
 		}
 		pc_tundra = {
 			names = {
-			"" 
+				Libran 
 			}
 		}
 		pc_arctic = {
 			names = {
-			"" 
+				Aquaria 
 			}
 		}
 	}
